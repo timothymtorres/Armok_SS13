@@ -52,7 +52,7 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = FA_ICON_BEER,
-			SPECIES_PERK_NAME = "Alcholic",
+			SPECIES_PERK_NAME = "Alcoholic",
 			SPECIES_PERK_DESC = "Dwarves just can't live without alcohol. \
 				They become drunk more slowly and suffer fewer drawbacks from alcohol.",
 		),
