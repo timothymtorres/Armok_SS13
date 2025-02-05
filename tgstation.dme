@@ -403,6 +403,7 @@
 #include "code\__DEFINES\traits\declarations.dm"
 #include "code\__DEFINES\traits\macros.dm"
 #include "code\__DEFINES\traits\sources.dm"
+#include "code\__DEFINES\~armok_defines\species.dm"
 #include "code\__HELPERS\_auxtools_api.dm"
 #include "code\__HELPERS\_dreamluau.dm"
 #include "code\__HELPERS\_lists.dm"
@@ -6550,4 +6551,7 @@
 #include "interface\fonts\spess_font.dm"
 #include "interface\fonts\tiny_unicode.dm"
 #include "interface\fonts\vcr_osd_mono.dm"
+#include "modular_armok\master_files\code\modules\language\_language_holder.dm"
+#include "modular_armok\master_files\code\modules\language\dwarf.dm"
+#include "modular_armok\master_files\code\modules\mob\living\carbon\human\species_type\dwarf.dm"
 // END_INCLUDE
