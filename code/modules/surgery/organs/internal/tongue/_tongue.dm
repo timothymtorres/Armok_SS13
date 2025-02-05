@@ -89,6 +89,7 @@
 		/datum/language/shadowtongue,
 		/datum/language/terrum,
 		/datum/language/nekomimetic,
+		/datum/language/dwarf, // ARMOK EDIT
 	)
 
 /obj/item/organ/tongue/proc/handle_speech(datum/source, list/speech_args)
