@@ -23,11 +23,15 @@
 	SIGNAL_HANDLER
 
 	update_mob_height()
+	//ARMOK EDIT REMOVAL BEGIN - Dwarfs are the main race and should interact with tables normally
+	/*
 	// Toggle passtable
 	if(HAS_TRAIT(src, TRAIT_DWARF))
 		passtable_on(src, TRAIT_DWARF)
 	else
 		passtable_off(src, TRAIT_DWARF)
+	*/
+	//ARMOK EDIT REMOVAL END
 
 /// Gaining or losing [TRAIT_TOO_TALL] updates our height
 /mob/living/carbon/human/proc/on_tootall_trait(datum/source)
