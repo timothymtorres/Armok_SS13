@@ -67,6 +67,8 @@
 		. = FALSE
 	else if((ride_check_flags & JUST_FRIEND_RIDERS) && !(living_parent.faction.Find(REF(rider))))
 		. = FALSE
+	else if(HAS_TRAIT(rider, TRAIT_DWARF)) // ARMOK EDIT
+		. = FALSE
 
 	if(. || !consequences)
 		return

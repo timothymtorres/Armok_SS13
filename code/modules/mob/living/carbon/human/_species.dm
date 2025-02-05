@@ -1925,7 +1925,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 /datum/species/proc/create_pref_language_perk()
 
 	// Grab galactic common as a path, for comparisons
-	var/datum/language/common_language = /datum/language/common
+	var/datum/language/common_language = /datum/language/dwarf // ARMOK EDIT
 
 	// Now let's find all the languages they can speak that aren't common
 	var/list/bonus_languages = list()
