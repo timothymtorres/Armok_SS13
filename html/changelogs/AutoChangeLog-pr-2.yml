@@ -1,0 +1,5 @@
+author: "timothymtorres"
+delete-after: True
+changes:
+  - rscadd: "Arrivals shuttle now is permadocked at roundstart to replicate the embark wagon."
+  - map: "Add wooden Armok arrivals shuttle with some basic supplies."
