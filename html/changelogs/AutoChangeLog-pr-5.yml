@@ -1,0 +1,7 @@
+author: "timothymtorres"
+delete-after: True
+changes:
+  - rscadd: "Add dwarf species and language. Dwarfs are now a round start race that is available."
+  - balance: "Remove dwarves ability to pass through tables."
+  - code_imp: "Drone language keybinding has been switched from \"d\" to \"z\" so that dwarf language can take the \"d\" keybinding."
+  - config: "Dwarf race is added to the game_options config as a starting race."
