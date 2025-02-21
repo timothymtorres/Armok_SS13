@@ -740,6 +740,11 @@ GLOBAL_LIST_INIT(traits_by_type, list(
 		"TRAIT_TURF_IGNORE_SLIPPERY" = TRAIT_TURF_IGNORE_SLIPPERY,
 		"TRAIT_TURF_IGNORE_SLOWDOWN" = TRAIT_TURF_IGNORE_SLOWDOWN,
 	),
+	// ARMOK EDIT ADDITION START - ARMOK TRAITS
+	/obj/item/food/grown/mushroom/plumphelmet = list(
+		"TRAIT_THIEF" = TRAIT_THIEF,
+	),
+	// ARMOK EDIT ADDITION END
 ))
 
 /// value -> trait name, list of ALL traits that exist in the game, used for any type of accessing.
