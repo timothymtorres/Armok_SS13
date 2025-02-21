@@ -1024,10 +1024,15 @@
 /obj/item/organ/eyes/night_vision/maintenance_adapted/on_life(seconds_per_tick, times_fired)
 	if(!owner.is_blind() && isturf(owner.loc) && owner.has_light_nearby(light_amount=0.5)) //we allow a little more than usual so we can produce light from the adapted eyes
 		to_chat(owner, span_danger("Your eyes! They burn in the light!"))
-		apply_organ_damage(10) //blind quickly
+		//apply_organ_damage(10) //blind quickly
 		playsound(owner, 'sound/machines/grill/grillsizzle.ogg', 50)
+
+		owner.become_nearsighted(GENETIC_MUTATION)
+		owner.set_eye_blur_if_lower(5 SECONDS)
+		owner.update_sight()
 	else
-		apply_organ_damage(-10) //heal quickly
+		//apply_organ_damage(-10) //heal quickly
+		owner.cure_nearsighted(GENETIC_MUTATION)
 	. = ..()
 
 /obj/item/organ/eyes/night_vision/maintenance_adapted/on_mob_remove(mob/living/carbon/unadapted, special = FALSE, movement_flags)
