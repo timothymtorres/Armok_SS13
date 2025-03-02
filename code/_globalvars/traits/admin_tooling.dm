@@ -403,11 +403,11 @@ GLOBAL_LIST_INIT(admin_visible_traits, list(
 	/obj/item/organ/lungs = list(
 		"TRAIT_SPACEBREATHING" = TRAIT_SPACEBREATHING,
 	),
-	// ARMOK EDIT ADDITION START - ARMOK TRAITS
+	// ARMOK EDIT START - ARMOK TRAITS
 	/obj/item/food/grown/mushroom/plumphelmet = list(
 		// placeholder for other traits replace when this gets filled
 	),
-	// ARMOK EDIT ADDITION END
+	// ARMOK EDIT END
 ))
 
 /// value -> trait name, generated as needed for adminning.
