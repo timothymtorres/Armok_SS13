@@ -325,17 +325,17 @@ In general try to keep your edit comments on the same line as the change. Prefer
 ```js
 <Button
 	onClick={() => act('spin', { high_quality: true })}
-	icon="rat" // ARMOK EDIT ADDITION
+	icon="rat" // ARMOK EDIT
 </Button>
 ```
 
 ```js
 <Button
 	onClick={() => act('spin', { high_quality: true })}
-	// ARMOK EDIT ADDITION START - another example, multiline changes
+	// ARMOK EDIT START - another example, multiline changes
 	icon="rat"
 	tooltip="spin the rat."
-	// ARMOK EDIT ADDITION END
+	// ARMOK EDIT END
 </Button>
 ```
 
