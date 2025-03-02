@@ -1,0 +1,4 @@
+author: "timothymtorres"
+delete-after: True
+changes:
+  - code_imp: "Add thief trait and supporting code. This allows you to steal items without notification and 50% faster."
