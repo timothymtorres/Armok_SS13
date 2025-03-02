@@ -1,0 +1,4 @@
+author: "timothymtorres"
+delete-after: True
+changes:
+  - config: "Disable station traits (for real this time) and events"
