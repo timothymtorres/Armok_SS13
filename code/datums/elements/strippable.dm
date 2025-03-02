@@ -301,8 +301,8 @@
 	var/thief_multiplier = HAS_TRAIT(user, TRAIT_THIEF) ? 0.5 : 1
 	var/delay = (strip_delay || item.strip_delay) * thief_multiplier
 	if(!do_after(user, delay, source, interaction_key = REF(item), hidden = hidden))
-		return FALSE
 	// ARMOK EDIT END
+		return FALSE
 
 	return TRUE
 
