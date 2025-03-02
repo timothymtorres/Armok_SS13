@@ -311,8 +311,10 @@
 	// ARMOK EDIT START
 	var/obj/item/dropped_item = item.doStrip(user, source)
 	if(!dropped_item)
+	// ARMOK EDIT END
 		return FALSE
 
+	// ARMOK EDIT START
 	if(HAS_TRAIT(user, TRAIT_THIEF))
 		user.put_in_hands(dropped_item)
 	// ARMOK EDIT END
