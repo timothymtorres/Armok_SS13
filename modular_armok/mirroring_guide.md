@@ -157,4 +157,4 @@ And then from the main view, simply hold Ctrl and click on the PR + its changelo
 
 Then from there, you can simply push changes and either fix any conflicts or errors, and then use Fork, Github Desktop, or go to github to make your Pull Request to Armok.
 
-If you are merging a Mirror Pull Request to your downstream it recommended to use the "Rebase and Merge" method that will keep all the upstream commits instact without adding extra merge commits.
+If you are merging a Mirror Pull Request to your downstream it recommended to use the "Rebase and Merge" method that will keep all the upstream commits intact without adding extra merge commits.
